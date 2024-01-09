@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(254, 254, 254);
+    padding: 10px 20px 0px;
+    border: solid 1px rgb(118, 118, 118);
+}
+
+.menu li {
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(118, 118, 118);
+}
+
+.menu li a:hover {
+    color: white;
+    cursor: pointer;
+    background-color: black;
+}
+.cabe hgroup {
+    display: inline-block;
+    margin-top: -200px;
+}
+
+.header {
+    background-color: #363F69;
+    min-height: 150px;
+}
+
+.header hgroup {
+    color: white;
+}
+
+.header h1 {
+    margin-bottom: -25px;
+}
+
+.header h3 {
+    margin-left: 80px;
+}
+
+.header img {
+    text-align: center;
+}
+
+.ne {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    color: rgba(9, 20, 17, 0.754);
+    text-align: center;
+}
+
+
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    
+}
+
+.especi {
+    width: 360px;
+}
+
+.especi img {
+    width: 350px;
+}
+
+.text_banner  {
+    margin-top: -1px;
+    margin-left: 40px;
+    color: rgba(9, 20, 17, 0.754);
+    
+}
+
+.text_banner  a {
+    text-decoration: none;
+    color: rgba(9, 20, 17, 0.754);
+}
+
+.text_banner a:hover {
+    background-color: black;
+    color: white;
+}
+#card {
+    margin-left: 430px;
+    margin-top: -425px;
+}
+
+
+
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+
+.foot1 {
+    display: inline-block;
+    color: white;
+    width: 300px;
+}
+
+.foot1 h3 {
+    margin-top: -25px;
+    margin-left: 90px;
+}
+
+.dire {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.dire p {
+    margin-bottom: -15px;
+}
