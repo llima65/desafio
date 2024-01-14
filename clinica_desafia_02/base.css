@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color:aquamarine;
 }
 .main {
     display: flex;
@@ -20,19 +20,128 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #5AA8F2;
     padding: 10px 20px 0px;
 }
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.menu li a:hover {
+    background-color: black;
+    color: white;
+}
+
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #5AE1F2;
     min-height: 150px;
+    
+}
+
+.header h1 {
+    margin-bottom: 0px;
+}
+
+.header p {
+    margin-top: 0px;
+    margin-left: 30px;
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
+
+.subti {
+    display: block;
+    background-color: rgb(98, 6, 6);
+    color: rgb(255, 254, 254);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.oto {
+    width: 600px;
+}
+
+.gino {
+    width: 400px;
+}
+.card {
+    display: inline-block;
+    width: 300px;
+}
+
+#ortop {
+    height: 200px;
+    width: 400px;
+}
+.sub_card {
+    display: inline-block;
+    background-color: rgb(98, 6, 6);
+    color: rgb(255, 254, 254);
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #5A6FF2;
     min-height: 150px;
+}
+
+.roda {
+    margin-left: 10px;
+    color: white;
+}
+
+.direitos {
+    text-align: center;
+    color: white;
+}
+
+.sobre h1 {
+    text-align: le;
+}
+
+.sobre {
+    text-align: center;
+}
+
+table thead th {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+table tfoot td{
+    background-color: lightgrey;
+}
+
+tbody tr td {
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+table tbody tr:hover td {
+    background-color: #e9e9e9;
+    cursor: pointer;
+}
+
+.hora {
+    text-transform: lowercase;
+}
+
+tfoot {
+    text-transform: uppercase;
 }
